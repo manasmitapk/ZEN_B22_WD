@@ -1,0 +1,16 @@
+** Call by value:
+
+1.The original variable is not modified on changes in other variables.
+2.Actual and copied variables will be created in different memory locations.
+3.On passing variables in a function, any changes made in the passed variable 
+will not affect the original one.
+
+
+** Call by reference:
+
+1.The original variable gets modified on changes in other variables.
+2.Actual and copied variables are created in the same memory location.
+3.On passing variables in a function, any changes made in the passed 
+parameter will update the original variable’s reference too.
+
+
